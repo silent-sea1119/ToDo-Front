@@ -43,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/szHeron/NLW6-Letmeask
+$ git clone https://github.com/szHeron/ToDo-Front
 $ cd todoapp
 ```
 
