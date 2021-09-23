@@ -1,0 +1,35 @@
+.todo-add{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    margin-left: 15px;
+    display: flex;
+    width: 70%;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(136, 136, 136, 0.7);
+    padding: 10px;
+    margin-left: 5px;
+}
+
+select{
+    display: flex;
+    border: none;
+}
+
+.Add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    color: rgba(0,116,255,1);
+    border-radius: 15px;
+    font-size: 24px;
+}

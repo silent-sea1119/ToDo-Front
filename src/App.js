@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import TodoList from './components/TodoList';
+import TodoSubmit from './components/TodoSubmit';
+import Day from './components/DayTime';
+import TodoContext from './context/TodoContext';
 import './App.css';
 
 function App() {
+  const [todo, setTodo] = useState({
+    title: '',
+    type: 'Estudo',
+    done: false,
+    createAt: Date.now()
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TodoContext.Provider value={{todo, setTodo}}>
+      <div className="App">
+        <div className="Content">
+          <Day/>
+          <TodoSubmit/>
+          <TodoList/>
+        </div>
+      </div>
+    </TodoContext.Provider>
   );
 }
 
