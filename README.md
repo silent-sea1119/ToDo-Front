@@ -4,7 +4,7 @@
 <br/>
 <p align="center">
  <img src="https://i.ibb.co/2s1Bsf0/TodoList.png" alt="TodoList" border="0"/>
- <img height="500px" src="https://im7.ezgif.com/tmp/ezgif-7-55416c0621db.gif" alt="TodoList" border="0"/>
+  <img height="320px" src="https://i.ibb.co/h7t8LYW/ae.gif" alt="TodoList" border="0"/>
 </p>
 
 
